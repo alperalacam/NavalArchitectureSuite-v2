@@ -124,8 +124,7 @@ The current working version is v1.0 — fully functional, 14 modules, 3,358 live
 
 ## Author
 
-**Alper Alacam Naval Architecture — Concept Design Studio**
-Türkiye
+**Alper Alacam** — Naval Architect & Marine Engineer, Türkiye
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Alper_Alacam-blue)](https://www.linkedin.com/in/alper-alacam-b70b9566)
 [![v1.0](https://img.shields.io/badge/Current_Release-v1.0-gold)](https://github.com/alperalacam/NavalArchitectureSuite/releases/tag/v1.0)
@@ -134,4 +133,4 @@ Türkiye
 
 *Free to use. Free to share. Dedicated to engineers who believe knowledge should be accessible to everyone.*
 
-© 2026 Alper Alacam Naval Architecture — Türkiye
+© 2026 Alper Alacam — Türkiye
