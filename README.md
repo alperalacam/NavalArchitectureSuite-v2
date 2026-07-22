@@ -57,14 +57,45 @@ C:\Temp\NavalArchitectureSuite_v2
 
 ## Scientific foundation
 
-Based on the Naval Architecture Teaching Toolkit — 31 volumes, 3,358+ live formulas:
+Based on the **Naval Architecture Teaching Toolkit** — 34 volumes, 3,000+ live formulas.
+All volumes are free and open educational resources.
 
-- **Vol 29** — Stability of Special Vessels
-- **Vol 30** — Intact and Damage Stability in Depth
-- **Vol 31** — Ship Manoeuvring and Hydrodynamics
-- **Vol 32** — Ship Production and Outfitting *(in progress)*
-- **Vol 33** — Underwater Noise and Signatures *(in progress)*
-- **Vol 34** — Ice Class and Polar Operations *(in progress)*
+| Volume | Title |
+|---|---|
+| Vol 1 | Fundamental Calculations of Naval Architecture |
+| Vol 2 | Ocean Hydrodynamics & Ship Motions |
+| Vol 3 | Propeller, Machinery & Marine Materials |
+| Vol 4 | Structural Design & Scantlings |
+| Vol 5 | Ship Manoeuvring & Control |
+| Vol 6 | Submarine Engineering |
+| Vol 7 | Fluid Mechanics for Naval Architects and Marine Engineers |
+| Vol 8 | Damage Stability |
+| Vol 9 | Introduction to Finite Element Methods for Naval Architects |
+| Vol 10 | Hovercraft Engineering |
+| Vol 11 | Classification Societies and Marine Regulations |
+| Vol 12 | Advanced Resistance and Powering — Holtrop-Mennen 1984 |
+| Vol 13 | Seakeeping and Operability |
+| Vol 14 | Offshore Structures and Drilling Platforms |
+| Vol 15 | Marine Corrosion and Corrosion Protection |
+| Vol 16 | Marine Vibration and Noise |
+| Vol 17 | Bow Design |
+| Vol 18 | Gas and Steam Turbines |
+| Vol 19 | Marine Diesel Engines |
+| Vol 20 | Marine Auxiliary Systems |
+| Vol 21 | Welding Engineering |
+| Vol 22 | Shipbuilding Welding Practice |
+| Vol 23 | Yacht Design |
+| Vol 24 | Advanced Yacht Design |
+| Vol 25 | Tonnage and Freeboard |
+| Vol 26 | Damage Stability and Subdivision |
+| Vol 27 | Ship Manoeuvring and Rudder Design |
+| Vol 28 | LNG Cargo Systems |
+| Vol 29 | Stability of Special Vessels |
+| Vol 30 | Intact and Damage Stability in Depth |
+| Vol 31 | Ship Manoeuvring and Hydrodynamics |
+| Vol 32 | Ship Production and Outfitting |
+| Vol 33 | Underwater Noise and Signatures |
+| Vol 34 | Ice Class and Polar Operations |
 
 ---
 
@@ -84,8 +115,10 @@ The current working version is v1.0 — fully functional, 14 modules, 3,358 live
 | 2 | Hull surface engine — slicing, offset table, Lines Plan | Planned |
 | 3 | Compartment modelling — solids, colours, volumes | Planned |
 | 4 | Deep hydrostatics and stability from real geometry | Planned |
-| 5 | Propeller and shaft design — B-series | Planned |
-| 6 | Project save/load, vector PDF, full release | Planned |
+| 5 | Stability deep — Vol 30 formulas + compartments | Planned |
+| 6 | Propeller and shaft design — B-series | Planned |
+| 7 | PDF / Export — vector PDF, Excel summary | Planned |
+| 8 | Release | Planned |
 
 ---
 
