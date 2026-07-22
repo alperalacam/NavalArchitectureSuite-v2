@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/logo-navy.png" width="160" alt="Naval Architecture Engineering Suite Logo">
+</p>
+
 # Naval Architecture Engineering Suite v2
 
 > **Under active development.** Based on user feedback from v1.0.
