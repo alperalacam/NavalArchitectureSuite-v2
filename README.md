@@ -24,24 +24,34 @@
 ## Project structure
 
 ```
-C:\Temp\NavalArchitectureSuite_v2
+NavalArchitectureSuite_v2
 │
-├── Core\
-│   ├── HullSurface.cs        ← OCCT NURBS hull surface
-│   ├── Compartment.cs        ← OCCT solid compartments
-│   ├── PropellerGeometry.cs  ← OCCT blade surfaces
-│   └── OffsetTable.cs        ← Offset table import / export
+├── assets\                        ← Logos and images
 │
-├── Hydrostatics\             ← From OCCT volume integration
-├── Stability\                ← From real compartments (Vol 29, 30)
-├── DamageStability\          ← From flooding simulation (Vol 30)
-├── Resistance\               ← Holtrop-Mennen + real hull form
-├── Propulsion\               ← New — B-series propeller + shaft
-├── LinesPlan\                ← Sliced from OCCT hull surface
+├── Core\                          ← Geometry kernel (OCCT)
+│   ├── HullSurface.cs             ← NURBS hull surface via Macad.Kernel
+│   ├── Compartment.cs             ← 3D solid compartments (tanks, holds, voids)
+│   ├── PropellerGeometry.cs       ← B-series blade geometry
+│   └── OffsetTable.cs             ← Offset table import / export
 │
-├── Views\                    ← WPF + HelixToolkit
-├── ViewModels\               ← MVVM architecture
-└── Services\                 ← PDF, Excel export
+├── Modules\                       ← Calculation modules
+│   ├── Hydrostatics\              ← Vol 1 — displacement, KM, TPC, MCT (OCCT integration)
+│   ├── Stability\                 ← Vol 29, 30 — GZ curve, loading conditions, free surface
+│   ├── DamageStability\           ← Vol 8, 26, 30 — flooding simulation, subdivision
+│   ├── Resistance\                ← Vol 12 — Holtrop-Mennen 1984 on real hull form
+│   ├── Propulsion\                ← Vol 3 — B-series open water curves, shaft design
+│   ├── Manoeuvring\               ← Vol 27, 31 — rudder design, turning circle
+│   ├── Seakeeping\                ← Vol 13 — motions, operability, added resistance
+│   ├── Structures\                ← Vol 4 — scantlings, section modulus, buckling
+│   ├── Machinery\                 ← Vol 18, 19, 20 — engines, turbines, auxiliary systems
+│   ├── UnderwaterNoise\           ← Vol 33 — radiated noise, propeller cavitation, sonar
+│   └── IceClass\                  ← Vol 34 — Lindqvist resistance, PC loads, polar code
+│
+├── LinesPlan\                     ← Body plan, sheer plan, half-breadth (sliced from OCCT)
+│
+├── Views\                         ← WPF UI — all screens and 3D viewport
+├── ViewModels\                    ← MVVM architecture
+└── Services\                      ← PDF export, Excel summary, project save/load (.nasp)
 ```
 
 ---
@@ -64,42 +74,67 @@ C:\Temp\NavalArchitectureSuite_v2
 Based on the **Naval Architecture Teaching Toolkit** — 34 volumes, 3,000+ live formulas.
 All volumes are free and open educational resources.
 
+### 🔵 Naval Architecture Fundamentals
 | Volume | Title |
 |---|---|
 | Vol 1 | Fundamental Calculations of Naval Architecture |
+| Vol 4 | Structural Design & Scantlings |
+| Vol 7 | Fluid Mechanics for Naval Architects and Marine Engineers |
+| Vol 25 | Tonnage and Freeboard |
+
+### 🌊 Hydrodynamics, Resistance & Propulsion
+| Volume | Title |
+|---|---|
 | Vol 2 | Ocean Hydrodynamics & Ship Motions |
 | Vol 3 | Propeller, Machinery & Marine Materials |
-| Vol 4 | Structural Design & Scantlings |
-| Vol 5 | Ship Manoeuvring & Control |
-| Vol 6 | Submarine Engineering |
-| Vol 7 | Fluid Mechanics for Naval Architects and Marine Engineers |
-| Vol 8 | Damage Stability |
-| Vol 9 | Introduction to Finite Element Methods for Naval Architects |
-| Vol 10 | Hovercraft Engineering |
-| Vol 11 | Classification Societies and Marine Regulations |
 | Vol 12 | Advanced Resistance and Powering — Holtrop-Mennen 1984 |
-| Vol 13 | Seakeeping and Operability |
-| Vol 14 | Offshore Structures and Drilling Platforms |
-| Vol 15 | Marine Corrosion and Corrosion Protection |
-| Vol 16 | Marine Vibration and Noise |
 | Vol 17 | Bow Design |
-| Vol 18 | Gas and Steam Turbines |
-| Vol 19 | Marine Diesel Engines |
-| Vol 20 | Marine Auxiliary Systems |
-| Vol 21 | Welding Engineering |
-| Vol 22 | Shipbuilding Welding Practice |
-| Vol 23 | Yacht Design |
-| Vol 24 | Advanced Yacht Design |
-| Vol 25 | Tonnage and Freeboard |
+
+### ⚖️ Stability & Damage Stability
+| Volume | Title |
+|---|---|
+| Vol 5 | Ship Manoeuvring & Control |
+| Vol 8 | Damage Stability |
 | Vol 26 | Damage Stability and Subdivision |
 | Vol 27 | Ship Manoeuvring and Rudder Design |
-| Vol 28 | LNG Cargo Systems |
 | Vol 29 | Stability of Special Vessels |
 | Vol 30 | Intact and Damage Stability in Depth |
 | Vol 31 | Ship Manoeuvring and Hydrodynamics |
+
+### 🏗️ Structures & Production
+| Volume | Title |
+|---|---|
+| Vol 9 | Introduction to Finite Element Methods for Naval Architects |
+| Vol 21 | Welding Engineering |
+| Vol 22 | Shipbuilding Welding Practice |
 | Vol 32 | Ship Production and Outfitting |
+
+### ⚙️ Marine Systems & Machinery
+| Volume | Title |
+|---|---|
+| Vol 14 | Offshore Structures and Drilling Platforms |
+| Vol 18 | Gas and Steam Turbines |
+| Vol 19 | Marine Diesel Engines |
+| Vol 20 | Marine Auxiliary Systems |
+| Vol 28 | LNG Cargo Systems |
+
+### 🚢 Special Vessels & Advanced Topics
+| Volume | Title |
+|---|---|
+| Vol 6 | Submarine Engineering |
+| Vol 10 | Hovercraft Engineering |
+| Vol 13 | Seakeeping and Operability |
+| Vol 23 | Yacht Design |
+| Vol 24 | Advanced Yacht Design |
 | Vol 33 | Underwater Noise and Signatures |
 | Vol 34 | Ice Class and Polar Operations |
+
+### 📋 Regulations, Environment & Materials
+| Volume | Title |
+|---|---|
+| Vol 11 | Classification Societies and Marine Regulations |
+| Vol 15 | Marine Corrosion and Corrosion Protection |
+| Vol 16 | Marine Vibration and Noise |
 
 ---
 
