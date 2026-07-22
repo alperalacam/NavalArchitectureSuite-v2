@@ -127,7 +127,7 @@ The current working version is v1.0 — fully functional, 14 modules, 3,358 live
 **Alper Alacam Naval Architecture — Concept Design Studio**
 Türkiye
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-alperalacam-blue)](https://www.linkedin.com/in/alperalacam)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Alper_Alacam-blue)](https://www.linkedin.com/in/alper-alacam-b70b9566)
 [![v1.0](https://img.shields.io/badge/Current_Release-v1.0-gold)](https://github.com/alperalacam/NavalArchitectureSuite/releases/tag/v1.0)
 
 ---
