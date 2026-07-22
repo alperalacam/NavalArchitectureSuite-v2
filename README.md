@@ -17,7 +17,7 @@
 - **Propeller & shaft design** — B-series (Wageningen) open water curves, blade geometry, shaft arrangement
 - **Deep stability** — real loading conditions, tank sounding tables, free surface per compartment
 - **Project save / load** — .nasp project file format, recent projects on startup
-- **Vector PDF export** — true vector charts and drawings, Excel calculation summary
+- **Vector PDF export** — true vector charts and drawings, multi-size (A0, A1, A2, A3, A4), Excel calculation summary
 
 ---
 
@@ -74,7 +74,7 @@ NavalArchitectureSuite_v2
 Based on the **Naval Architecture Teaching Toolkit** — 34 volumes, 3,000+ live formulas.
 All volumes are free and open educational resources.
 
-### 🔵 Naval Architecture Fundamentals
+### Naval Architecture Fundamentals
 | Volume | Title |
 |---|---|
 | Vol 1 | Fundamental Calculations of Naval Architecture |
@@ -82,7 +82,7 @@ All volumes are free and open educational resources.
 | Vol 7 | Fluid Mechanics for Naval Architects and Marine Engineers |
 | Vol 25 | Tonnage and Freeboard |
 
-### 🌊 Hydrodynamics, Resistance & Propulsion
+### Hydrodynamics, Resistance & Propulsion
 | Volume | Title |
 |---|---|
 | Vol 2 | Ocean Hydrodynamics & Ship Motions |
@@ -90,7 +90,7 @@ All volumes are free and open educational resources.
 | Vol 12 | Advanced Resistance and Powering — Holtrop-Mennen 1984 |
 | Vol 17 | Bow Design |
 
-### ⚖️ Stability & Damage Stability
+###  Stability & Damage Stability
 | Volume | Title |
 |---|---|
 | Vol 5 | Ship Manoeuvring & Control |
@@ -101,7 +101,7 @@ All volumes are free and open educational resources.
 | Vol 30 | Intact and Damage Stability in Depth |
 | Vol 31 | Ship Manoeuvring and Hydrodynamics |
 
-### 🏗️ Structures & Production
+###  Structures & Production
 | Volume | Title |
 |---|---|
 | Vol 9 | Introduction to Finite Element Methods for Naval Architects |
@@ -109,7 +109,7 @@ All volumes are free and open educational resources.
 | Vol 22 | Shipbuilding Welding Practice |
 | Vol 32 | Ship Production and Outfitting |
 
-### ⚙️ Marine Systems & Machinery
+###  Marine Systems & Machinery
 | Volume | Title |
 |---|---|
 | Vol 14 | Offshore Structures and Drilling Platforms |
@@ -118,7 +118,7 @@ All volumes are free and open educational resources.
 | Vol 20 | Marine Auxiliary Systems |
 | Vol 28 | LNG Cargo Systems |
 
-### 🚢 Special Vessels & Advanced Topics
+###  Special Vessels & Advanced Topics
 | Volume | Title |
 |---|---|
 | Vol 6 | Submarine Engineering |
@@ -129,7 +129,7 @@ All volumes are free and open educational resources.
 | Vol 33 | Underwater Noise and Signatures |
 | Vol 34 | Ice Class and Polar Operations |
 
-### 📋 Regulations, Environment & Materials
+###  Regulations, Environment & Materials
 | Volume | Title |
 |---|---|
 | Vol 11 | Classification Societies and Marine Regulations |
@@ -142,7 +142,7 @@ All volumes are free and open educational resources.
 
 The current working version is v1.0 — fully functional, 14 modules, 3,358 live formulas, free installer.
 
-⬇️ **[Download Naval Architecture Engineering Suite v1.0](https://github.com/alperalacam/NavalArchitectureSuite/releases/tag/v1.0)**
+**[Download Naval Architecture Engineering Suite v1.0](https://github.com/alperalacam/NavalArchitectureSuite/releases/tag/v1.0)**
 
 ---
 
