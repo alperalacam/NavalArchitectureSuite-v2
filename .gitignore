@@ -1,0 +1,37 @@
+# ────────────────────────────────────────────────────────────
+#  Naval Architecture Engineering Suite v2
+#  PUBLIC REPOSITORY — SHOWCASE ONLY
+#
+#  The application source is not published. This repository carries
+#  the README, the screenshots and the studio logo assets — nothing
+#  else. The rules below ignore everything by default, then allow
+#  back only those three things, so an accidental `git add -A`
+#  cannot publish code.
+# ────────────────────────────────────────────────────────────
+
+# Ignore everything.
+*
+
+# ── Allowed back: the showcase itself ────────────────────────────
+!.gitignore
+!README.md
+!LICENSE
+
+!screenshots/
+!screenshots/*.png
+!screenshots/*.jpg
+
+!assets/
+!assets/*.png
+!assets/*.svg
+
+# ── Never publish, belt and braces ──────────────────────────────
+bin/
+obj/
+.vs/
+publish/
+output/
+outputs/
+*.user
+*.suo
+.DS_Store
