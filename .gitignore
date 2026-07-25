@@ -26,6 +26,20 @@
 !assets/*.svg
 
 # ── Never publish, belt and braces ──────────────────────────────
+#
+# These come LAST on purpose. In .gitignore the last matching rule wins,
+# so naming them here means no `!` rule added above can ever let them
+# through. Scripts, workbooks and data stay local.
+
+*.py
+*.pyc
+__pycache__/
+
+*.xlsx
+*.xlsm
+*.xls
+*.csv
+
 bin/
 obj/
 .vs/
