@@ -24,7 +24,7 @@
 ---
 
 <p align="center">
-  <img src="screenshots/07242026.png" width="900" alt="Suite v2 — four-viewport CAD workspace with formula trace">
+  <img src="screenshots/01-workspace.png" width="900" alt="Suite v2 — four-viewport CAD workspace with formula trace">
 </p>
 
 <p align="center">
