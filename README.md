@@ -23,6 +23,17 @@
 
 ---
 
+<p align="center">
+  <img src="screenshots/07242026.png" width="900" alt="Suite v2 — four-viewport CAD workspace with formula trace">
+</p>
+
+<p align="center">
+  <em>Suite v2 under development — body plan, profile, half-breadth and 3D perspective,<br>
+  with every derived value traceable to its governing formula and source volume.</em>
+</p>
+
+---
+
 ## What is Suite v2?
 
 Suite v2 transforms the calculation-driven v1.0 into a **full parametric CAD/CAE modelling environment** — with a real NURBS geometry kernel, exact hydrostatics, vessel-intelligent formula selection, FEM solvers, and a transparent formula trace system that no competing tool offers.
@@ -303,10 +314,8 @@ Based on the **Naval Architecture Teaching Toolkit** — 42 volumes, 3,000+ live
 | FEM Solver | Custom C# (stiffness matrix assembly) | Structural and thermal FEM |
 | PDF Export | SimplePdfDocument (custom, dependency-free) | Vector PDF, A0–A4, ISO 128 linework |
 | License Server | Azure App Service + AES-256 | Online activation, seat management |
-| Database | SQLite | Project files (.nasp), engine database |
+| Database | SQLite | Project files, engine database |
 | Data Exchange | Dynamic DLL-based API (LGPL compliant) | OCCT legal compliance |
-
-```
 
 ---
 
